@@ -19,7 +19,7 @@ When counting such a large amount of data with really finite filters, we can pos
 ## Results
 
 *- What are two conclusions you can draw about the Outcomes based on Launch Date?*
-Franky, not much. Kickstarting plays only started be become popular after 2013; between 2009 and 2013, we saw only 26 campaigns for plays, all of which were successful. From 2014 to 2016, the number of campaigns skyrocketed caping at 518 for the year of 2015 and making this chart finally show failed campaigns. If we omit some of the earlier data and look at 2014-2016 alone, 
+Franky, not much. Kickstarting plays only started be become popular after 2013; between 2009 and 2013, we saw only 26 campaigns for plays, all of which were successful. From 2014 to 2016, the number of campaigns skyrocketed caping at 518 for the year of 2015 and making this chart finally show failed campaigns. If we omit some of the earlier data and look at 2014-2016 alone, we see that there are fewer successful campaigns to misrepresent the times. ![Sectional Chart](https://github.com/Atros04/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch_2014_to_2016.png) What we then find when we overlap this chart with our original is a more relaistic picture. ![overlap chart](https://github.com/Atros04/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch_2014_to_2016_Overlap.png)
 
 - What can you conclude about the Outcomes based on Goals?
 
