@@ -14,10 +14,12 @@ Time was not really a factor for failed kickstarters. We consistently saw betwee
 Play goals are even more of a mixed bag as we can see the graph showing no readable trendline. ![The chart shows nothing statistically significant](https://github.com/Atros04/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png) Part of this has to do with how few plays were in the funding goals past the $15,000 mark. We counted low twenties after being in triple digits just before that; this low count of plays makes the graph skew and appear to report that successful plays come back at the $35,000-$44,999 marks. Those successful plays were compared against 3 other plays across that range of goal funding.  
 
 ### Challenges and Difficulties Encountered
+When counting such a large amount of data with really finite filters, we can possibly misrepresent the data. As I was incrimentally changing the `COUNTIFS()` function, I found I had to compare other filtered tables to ensure I was accurately counting and not getting zeroes or other miscounted data. The final step would be the most tricky as defining ranges of data correctly using `<` and `>=` needed to be paired up with their respective rows.
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+*- What are two conclusions you can draw about the Outcomes based on Launch Date?*
+Franky, not much. Kickstarting plays only started be become popular after 2013; between 2009 and 2013, we saw only 26 campaigns for plays, all of which were successful. From 2014 to 2016, the number of campaigns skyrocketed caping at 518 for the year of 2015 and making this chart finally show failed campaigns. If we omit some of the earlier data and look at 2014-2016 alone, 
 
 - What can you conclude about the Outcomes based on Goals?
 
