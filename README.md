@@ -23,15 +23,19 @@ When counting such a large amount of data with really finite filters, we can pos
 ## Results
 
 *- What are two conclusions you can draw about the Outcomes based on Launch Date?*
+
 Time was not really a factor for failed kickstarters. We consistently saw between 30 and 50 failed kickstarters per month among all the data; no one month stood out as a "failure" month over the others. Additionally, we see a larger uptick of successful plays during the spring months meaning that we sould aim to start our campaign in March or April. That being said, there is a slight peak of successful campaigns in the months of October to could serve as a secondary target.
 
 *- What can you conclude about the Outcomes based on Goals?*
+
 Having a goal of $15,000 or lower is ideal, becoming more ideal the less we campaign up to $5,000. 72% of plays that campaigned between $1,000 and $4,999 were successful which is better than the coin flip 55% at $5,000 to $9,999. Additionally, trying to campaign any higher than $25,000 makes our chances catastrophic. 
 
 *- What are some limitations of this dataset?*
+
 This dataset was not able to give us actual donations from backers such as donations that would be considered outliers and we had to rely on averages to give us an idea of how much was donated per backer. And while averages were okay for our current analysis, we could feel pressured about averages during a campaign period. We also are looking at data from 10+ years ago which is not reflective of the trend we see today; kickstarting plays could be much more difficult or easier depending on market saturation.
 
 *- What are some other possible tables and/or graphs that we could create?*
+
 To better represent goal amount, we should use a bar graph whcih can batter give a representation of the histogram trend, skew, and bell vurve (if it exists). The line graph over percentage is nice, but does not do the actual count justice as counts can vary wildly in our raw data from 2 to 515.
 Personally, radar charts can give a bit more insight on activity over a time period than line charts do. In that, I would have used a radar to better represent the Outcomes based on launch date.
 ![Radar Better](/resources/Theater_Outcomes_vs_Launch_Radar.png)
